@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo Blog project</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-col.css">
+    <link rel="stylesheet" href="style-media.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,35 +19,28 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="logo">
-                        <a href="">
-                            <img src="./images/logo.png" alt="">
-                        </a>
-                    </div>
+                <div class="col-xs-12 col-sm-3 logo">
+                    <a href=""><img src="./images/logo.png" alt=""></a>
                 </div>
-                <div class="col-md-6">
-                    <nav class="nav-menu">
-                        <ul class="btn-nav-menu">
-                            <li id="btn-color"><a href="">HOME</a></li>
-                            <li><a href="">ABOUT</a></li>
-                            <li><a href="">WORK</a></li>
-                            <li><a href="">TEAM</a></li>
-                            <li><a href="">SERVICES</a></li>
-                            <li><a href="">FEATURES</a></li>
-                            <li><a href="">CONTACT</a></li>
-                        </ul>
-                    </nav>
+                <div class="col-xs-12 col-sm-7 nav-menu">
+                    <a href="" id="color-btn">HOME</a>
+                    <a href="">ABOUT</a>
+                    <a href="">WORK</a>
+                    <a href="">TEAM</a>
+                    <a href="">SERVICES</a>
+                    <a href="">FEATURES</a>
+                    <a href="">CONTACT</a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xs-hidden col-sm-2 col-search-menu">
                     <div class="search-menu">
-                        <ul class="search-block">
-                            <li><input type="search" placeholder="Search"></li>
-                            <li><a href=""></a></li>
-                        </ul>
+                        <div class="border-search">
+                            <input type="text" class="input-search" placeholder="SEARCH">
+                            <a href="" class="btn-search"></a>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
     </header>
 </body>
 
