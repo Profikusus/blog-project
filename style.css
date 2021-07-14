@@ -5,6 +5,9 @@
     margin-left: auto;
     margin-right: auto;
 }
+header{
+    background-color: #1d2126;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -14,19 +17,18 @@ body{
     margin-right: -15px;
     flex-wrap: wrap;
     text-align: center;
-    background-color: #1d2126;
 }
 [class*="col-"]{
     padding-left: 15px;
     padding-right: 15px;
 }
-.logo{
-    justify-content: center;
-    align-items: center;
-}
 .logo, .nav-menu{
     height: 80px;
     display: flex;
+}
+.logo{
+    justify-content:flex-end;
+    align-items:center;
 }
 .nav-menu{
     justify-content: center;
@@ -54,8 +56,9 @@ body{
 }
 .search-menu{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    height: 80px;
 }
 .input-search{
     height: 30px;
@@ -86,4 +89,7 @@ body{
     color:#a4aead ;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+}
+.slide-menu{
+    max-width:100%;
 }

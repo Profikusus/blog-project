@@ -5,6 +5,20 @@
     .row{
         flex-wrap: wrap;
     }
+    .nav-menu{
+        overflow-x: scroll;
+    }
+    .col-xs-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .slide-menu img{
+        max-width:100%;
+    }
+    .logo, .nav-menu{
+        justify-content:center;
+        align-items:center;
+    }
 }
 @media(min-width:768px){
     .col-sm-3{
@@ -18,5 +32,8 @@
     .col-sm-2{
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
+    }
+    .slide-menu img{
+        max-width:100%;
     }
 }
